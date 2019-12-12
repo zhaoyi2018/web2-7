@@ -1,0 +1,93 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#box1{
+	background-color: #ccc;
+	height: 20px;
+}
+#box11{
+	margin: 0 auto;
+	width: 1000px;
+	height: 20px;
+	line-height: 20px;
+}
+#box11 div{
+	width: 974px;
+	height: 20px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+#box11 img{
+	float: left;
+	padding-top: 2px;
+	padding-right: 10px;
+}
+#box11 span{
+	color: red;
+	display: block;
+	float: left;
+	height: 20px;
+	position: absolute;
+}
+#box2{
+	padding-top: 10px;
+	width: 1200px;
+	height: 382px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+#imgs{
+	left: -1200px;
+	width: 8400px;
+	height: 382px;
+	position: absolute;
+}
+.imgClass{
+	float: left;
+	width: 1200px;
+	height: 382px;
+	overflow: hidden;
+}
+#box2 span{
+	position: absolute;
+	display: block;
+	height: 50px;
+	width: 30px;
+	text-align: center;
+	line-height: 50px;
+	top: 166px;
+	background-color:red ;
+	color: #fff;
+	cursor: pointer;
+}
+#left{
+	left: 20px;
+}
+#right{
+	right: 20px;
+}
+#dot{
+	position: absolute;
+	bottom: 5px;
+	width: 300px;
+	height: 30px;
+	left: 450px;
+}
+li{
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin-right: 30px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
+	background-color: #ccc;
+	cursor: pointer;
+}
+.active{
+	background-color: red;
+}
